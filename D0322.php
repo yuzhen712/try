@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if( !isset($_GET['aa'])
 	|| !isset($_GET['bb'])
 	|| !is_numeric($_GET['aa'])
@@ -11,4 +11,4 @@ if( !isset($_GET['aa'])
 $x = $_GET['aa'];
 $y = $_GET['bb'];
 $z = $x+$y;
-echo $y;
+echo $x;
