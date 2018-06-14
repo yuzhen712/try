@@ -1,0 +1,21 @@
+第一次設定
+git config --global user.email "filitov@twcat.net"
+git config --global user.name "FilitovDUP"
+
+新的版本管理倉庫
+echo "# test2018" >> README.md
+git init
+git add .
+git commit -m "示範git操作"
+git remote add origin https://github.com/FilitovDemo/test2018.git
+git push -u origin master
+
+從github拉回程式
+git init
+git remote add origin https://github.com/FilitovDemo/test2018.git
+git pull origin master
+
+把程式推上github
+git add .
+git commit -m "示範git操作"
+git push -u origin master
